@@ -1,0 +1,122 @@
+#full-screen {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#enclosing-components {
+    display: flex;
+    width: 1000px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#company-headline {
+    width: 50%;
+}
+
+#company-name {
+    font-size: 58px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#company-login-slogan {
+    font-size: 28px;
+    font-weight: light;
+}
+
+#login-container {
+    min-height: 400px;
+    margin-right: 20px;
+}
+#form-container {
+    min-height: 315px;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 4px 20px 0 rgba(0, 0, 0, 0.1);;
+}
+input {
+    width: 320px;
+    padding: 18px;
+    margin-bottom: 13px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 17px;
+    border: 1px rgba(0,0,0,0.3) solid;
+}
+
+input:focus {
+    border-radius: 8px;
+    border: 1px #1877f2 solid;
+}
+
+#login-btn {
+    margin-top: 5px;
+    width: 100%;
+    background-color: #1877f2;
+}
+
+#forgot-password {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #1877f2;
+}
+
+#forgot-password:hover {
+    text-decoration: underline;
+    text-decoration-color: #1877f2;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+#create-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#create-btn {
+    width: 60%;
+    background-color: green;
+}
+
+#create-a-page-section {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#create-a-page-link {
+    font-weight: bold;
+}
+
+#create-a-page-link:hover {
+    text-decoration-color: black;
+    text-decoration: underline;
+}
+
+.btn {
+    display: flex;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: bolder;
+    color: #fff;    
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link:hover {
+    cursor: pointer;
+}
