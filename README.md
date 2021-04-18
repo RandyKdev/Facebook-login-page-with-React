@@ -4,11 +4,11 @@ Creating Facebook login design with React
 
 # Design Now
 
-
+![desing](fb.png)
 
 # Target
 
-
+![fb original design](fb_goal.png)
 
 # Getting Started with this project
 
